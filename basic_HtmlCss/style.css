@@ -1,56 +1,52 @@
-.main {
-  width: 600px;
-  margin: auto;
-  padding-top: 10px;
-  line-height: 28px;
+body,
+h1,
+p {
+  margin: 0;
 }
-h1 {
-  border-bottom: 3px solid black;
-  margin-bottom: 0px;
-  padding-bottom: 5px;
-  width: 743px;
+.container {
+  width: 360px;
+  background-color: skyblue;
+  margin: 40px auto;
 }
-
-.box {
-  background-color: #ebe8e8e1;
-  width: 704px;
-  height: 70px;
-  margin-bottom: 20px;
-  padding-bottom: 0px;
-  padding: 1px 20px 20px 20px;
-  line-height: 1px;
-  padding-top: 12px;
+.title,
+.description {
+  text-align: center;
 }
-
-.user {
+.description {
+  margin: 20px 0;
+}
+form > div {
+  margin-bottom: 10px;
   display: flex;
-  font-size: 10;
-  flex-direction: row;
-  gap: 10px;
-  margin: 5px;
-  padding-bottom: 20px;
+  align-items: center;
+}
+.label-width {
+  display: inline-block;
+  width: 70px;
+}
+[type="text"],
+[type="password"] {
+  width: 290px;
+  height: 32px;
+  border: 1px solid #ccc;
 }
 
-.line-1,
-.line-2 {
-  border-right: 1px solid rgba(209, 198, 198, 0.815);
-}
-.line-1,
-.line-2,
-.line-3 {
-  padding: 0px;
-  padding-right: 14px;
-  width: 160x;
-  height: 15px;
-  margin: 10px 4p;
-  line-height: 15px;
+.submit-button {
+  width: 100%;
+  height: 40px;
+  background-color: royalblue;
+  color: white;
+
+  border: 1px solid #0f1c44;
+  border-width: 0 0 3px 0;
+  margin-top: 20px;
+  border-radius: 4px;
+  font: inherit;
+  box-sizing: content-box;
+  padding: 0;
 }
 
-.line {
-  padding-inline: 18px;
-}
-
-a {
-  color: blue;
-  text-decoration: underline blue;
+.submit-button:active {
+  border: 0;
+  margin-top: 23px;
 }
